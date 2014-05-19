@@ -231,23 +231,7 @@ var AkqaGenerator = yeoman.generators.Base.extend({
     this.copy('editorconfig', '.editorconfig');
     this.copy('jshintrc', '.jshintrc');
     this.copy('_CHANGELOG.md', 'CHANGELOG.md');
-  },
-
-  prepareAssemble: function() {
-
-  },
-
-  prepareStaticSite: function() {
-
-  },
-
-  prepareCQSite: function() {
-
-  },
-
-  prepareNetSite: function() {
-
-  },
+  }
 
 });
 
