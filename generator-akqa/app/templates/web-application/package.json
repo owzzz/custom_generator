@@ -1,0 +1,32 @@
+{
+  "name"        : "AKQA-AgularJS-Base-Project",
+  "description" : "A boilerplate project for AngularJS based projects",
+  "version"     : "0.0.1",
+  "repository"  : {
+    "type"  : "git",
+    "url"   : "[ REPOSITORY ]"
+  },
+  "contributors": [
+    {
+      "name"    : "[ YOUR NAME ]",
+      "url"     : "[ YOUR EMAIL ADDRESS ]"
+    }
+  ],
+  "dependencies": {
+    "grunt": "*",
+    "grunt-scriptlinker": "*",
+    "grunt-contrib-connect"         : "*",
+    "grunt-contrib-copy"            : "*",
+    "grunt-contrib-clean"           : "*",
+    "grunt-contrib-jshint"          : "*",
+    "grunt-contrib-sass"            : "*",
+    "grunt-contrib-uglify"          : "*",
+    "grunt-contrib-watch"           : "*",
+    "grunt-jsonlint"                : "*",
+    "grunt-karma"                   : "*",
+    "grunt-newer"                   : "*",
+    "grunt-notify"                  : "*",
+    "matchdep"                      : "*",
+    "grunt-angular-templates"       : "*"
+  }
+}

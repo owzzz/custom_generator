@@ -1,0 +1,21 @@
+/* MOBILE & DEFAULT STYLES
+ *************************************************************/
+
+.example-feature {
+	height: 200px;
+}
+
+/* DESKTOP STYLES
+ *************************************************************/
+
+@media only screen and (min-width: $bpTabletMin) {
+	.example-feature {
+		height: 588px;
+
+		ul {
+			li {
+				border-bottom: 1px solid orange;
+			}
+		}
+	}
+}

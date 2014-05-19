@@ -1,0 +1,28 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+}
+.app-container {
+    min-width: 0;
+}
+
+.navigation-panel,
+.lickforit-logo {
+    display: none;
+}
+
+.content-section-center {
+    text-transform: uppercase;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: $WRAPPER_PADDING $WRAPPER_PADDING 0 $WRAPPER_PADDING;
+    max-width: 800px;
+    min-width: $min-width;
+    overflow: hidden;
+}

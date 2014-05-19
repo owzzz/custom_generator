@@ -1,0 +1,22 @@
+//GRID
+
+
+$WRAPPER_PADDING : 30px;
+$CONTENT_MAX_WIDTH  : 1060 - $WRAPPER_PADDING;
+
+
+$media_mobile   : "(max-width: 480px)";
+$media_desktop  : "(min-width: 481px)";
+
+$max-width: 100%;
+$min-width: 480px;
+
+$colour_blue : #044290;
+$colour_red : #e30330;
+
+$image_path: "../img/";
+$lickrace_sprite : $image_path + 'lickrace/sprite.png';
+
+$global_font_black : 'plutoblack';
+
+$module_path : "../../app/modules/";
